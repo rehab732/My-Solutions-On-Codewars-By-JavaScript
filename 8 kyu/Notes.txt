@@ -6,3 +6,23 @@ Array Functions
     ex:[1,2,3,5,30]==>acc=1,current=2
     arr.filter((value)=>value>0).
     reduce((acc,current)=>acc+current,0);//0 initial value for accumulator
+
+4. Slice==> to remove from array
+    ex:const animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
+    console.log(animals.slice(2));//will remove form 0 to 2-1
+    output==>["camel", "duck", "elephant"]
+
+    ex:console.log(animals.slice(2, -1));
+    // Expected output: Array ["camel", "duck"]
+
+5.
+
+
+
+
+
+
+Notes:
+======
+let maxvalue=Math.max(...array); //will get the max number also for Math.min
+
