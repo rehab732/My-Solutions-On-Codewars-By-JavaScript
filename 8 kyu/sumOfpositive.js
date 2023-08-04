@@ -4,7 +4,7 @@
 
 // Note: if there is nothing to sum, the sum is default to 0
 
-
+//sol 1#
 function positiveSum(arr) {
  
   if(arr.length==0)
@@ -18,6 +18,23 @@ function positiveSum(arr) {
         sum+=arr[i];
     }
     return sum;
+  }
+  
+}
+
+
+//Sol 2# by filter and reduce
+
+function sumOfPositive(arr)
+{
+  if(arr.length==0)
+  {
+    return 0;
+  }else
+  {
+    return arr.filter((value)=>value>0).
+    reduce((acc,current)=>acc+current,0);
+
   }
   
 }

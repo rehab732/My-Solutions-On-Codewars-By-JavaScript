@@ -1,0 +1,8 @@
+Array Functions
+///////////////////
+1. filter===>return new array and take call back function as a parameter
+2. map==> return the same type of data but with different values
+3. reduce ==>reduce takes two parameters, first one is an accumulator value which will be passed
+    ex:[1,2,3,5,30]==>acc=1,current=2
+    arr.filter((value)=>value>0).
+    reduce((acc,current)=>acc+current,0);//0 initial value for accumulator
